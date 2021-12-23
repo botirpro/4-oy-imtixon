@@ -1,0 +1,261 @@
+.users{
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    background-color: rgb(33, 202, 160);
+    color: #ffe9e9;
+}
+
+.users .container-fluid{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.users__inner{
+    width: 100%;
+    max-width: 33.333%;
+    
+    
+}
+
+.users__list{
+    height: 100%;
+    overflow: auto;
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+    background-color: rgb(135, 191, 255);   
+}
+
+.spinner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+
+}
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 290px;
+    padding: 4px 10px;
+    width: 140px;
+    color: #fff;
+    background-color: #6B9465;
+    border-radius: 15px;
+
+
+}
+.users__item{
+    position: relative;
+    margin-bottom: 10px;
+    padding: 20px;
+    color: #222222;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.users__item__id{
+  position: absolute;
+  top: 0;
+  right: 20px;
+  color: darkgoldenrod;
+  font-size: 52px;
+}
+
+.users__item__username{
+    align-items: center;
+    padding: 2px 20px;
+    color: #fff;
+    background-color: #6B9465;
+    border-radius: 15px;
+}
+
+.users__item__email{
+    text-decoration: none;
+    color: darkred;
+}
+
+.users__item__email:hover{
+    text-decoration: underline;
+}
+
+.user__item__address-link{
+    text-decoration: none;
+    color: darkturquoise;
+}
+
+.user__item__address-link:hover{
+    text-decoration: underline;
+
+}
+
+.users__item__website{
+    text-decoration: none;
+    color: forestgreen; 
+}
+
+.users__item__website:hover{
+    text-decoration: underline;
+   
+}
+
+.users__item__address{
+  margin: 0;
+  padding: 0;
+  color: rgb(78, 233, 135); 
+  font-size: 18px;
+  line-height: 1.5;  
+}
+
+.user__company__name,.user__company__catchPhrase,.user__company__bs{
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 6,0.5); 
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.users__item__number{
+    margin: 0;
+    padding: 0;
+    color: dimgray;
+}
+
+
+
+/* ======= post =========== */
+.post__inner{
+    width: 100%;
+    max-width: 33.333%;
+}
+
+.post__list{
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+    height: 100%;
+    overflow: auto;
+    background-color: #91BB85;
+}
+
+.post__item{
+    position: relative;
+    margin-bottom: 10px;
+    padding: 20px;
+    color: #222222;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.post__item::before{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%);
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #fff;
+    border-left: 15px solid transparent;
+    content:'';
+}
+
+.post__item__headding{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #419FD9;
+}
+
+.post__item__text{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: dimgray; 
+}
+
+/* ============= comments ============== */
+.comments__inner{
+    width: 100%;
+    max-width: 33.333%;
+}
+.comments__list{
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+    height: 100%;
+    overflow: auto;
+    background-color: #91BB85;
+
+}
+.comments__item{
+    position: relative;
+    margin-bottom: 10px;
+    padding: 15px;
+    color: #222222;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comments__item::before{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%);
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #fff;
+    border-left: 15px solid transparent;
+    content:'';
+}
+
+.comments__item__headding{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #419FD9;
+}
+
+.comments__item__text{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: dimgray; 
+}
+
+.comments__item__email{
+    display: block;
+    text-align: end;
+    text-decoration: none;
+   color: tomato;
+
+    font-size: 18px;
+}
+
+.comments__item__email:hover{
+   text-decoration: underline;
+   color: darkturquoise;
+}

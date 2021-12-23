@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Imtixon</title>
+</head>
+<body>
+    <section class="users">
+        <div class="container-fluid">
+            <div class="users__inner">
+                <h2 class="users__headding text-center">Users</h2>
+                <ul class="users__list">
+                   <img class="spinner" src="./images/Spinner.svg" alt="spinner image" width="100" height="100">
+                </ul>
+            </div>
+            <div class="post__inner">
+                <h2 class="post__headding text-center ">Post</h2>
+                <ul class="post__list">
+                   <p class="comment" >no posts...</p>
+                </ul>
+            </div>
+            <div class="comments__inner">
+                <h2 class="comments__headding text-center">Comments</h2>
+                <ul class="comments__list">
+                   <p class="comment" >no comments...</p>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <template class="users__template">
+        <li class="users__item">
+            <span class="users__item__id">01</span>
+            <span class="users__item__username">avazbek</span>
+            <h4 class="users__item__headding text-secondary m-0">Leanne Graham</h4>
+            <p class="users__item__address"></p>
+            <h4 class="user__company__name">name</h4>
+            <p class="user__company__catchPhrase">catchPhrase</p>
+            <p class="user__company__bs">bs</p>
+            <p class="users__item__number">32893232857</p>
+            <div class="email__inner d-flex" >
+                <a class="users__item__email" href="Sincere@april.biz"></a>
+                <a
+                class="user__item__address-link"
+                target="__blank"
+                href="https://www.google.com/maps/place/-37.3159,81.1496"
+                >location</a>
+                <a class="users__item__website" href="hildegard.org">hildegard.org</a>
+            </div>
+            
+        </li>
+        <hr>
+    </template>
+
+    <template class="post__template">
+        <li class="post__item">
+            <h3 class="post__item__headding"></h3>
+            <p class="post__item__text"></p>
+        </li>
+    </template>
+
+    <template class="comments__template">
+        <li class="comments__item">
+            <h3 class="comments__item__headding"></h3>
+            <p class="comments__item__text"></p>
+            <a class="comments__item__email" href="https://www.google.com/gmail/about/"></a>
+        </li>
+    </template>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
